@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb1d055-d894-4ab4-92fc-48bd7c07457d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/simplitate/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/simplitate/dao/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/simplitate/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/simplitate/runnables/UserProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/new_users.txt" afterDir="false" />
+    <list default="true" id="e702b4bb-c476-4db8-9813-3178724198e0" name="Default Changelist" comment="add .gitignore file">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/simplitate/tests/TestRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/simplitate/tests/TestRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/simplitate/tests/TestExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/simplitate/tests/TestExecutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/simplitate/runnables/AppThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/simplitate/runnables/AppThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/za/co/simplitate/tests/TestRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/za/co/simplitate/tests/TestRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,34 +18,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1T5VEJgV5cl1XKZsr1Yb29gYe6j" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1TBV3A4yrclWiNYENFFQD0z3tTB" />
   <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../code" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,84 +40,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestRunnable">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="za.co.simplitate.tests.Test" />
-      <module name="javaseconcurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.simplitate.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="za.co.simplitate.tests.TestRunnable" />
-      <module name="javaseconcurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.simplitate.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="za.co.simplitate.tests.TestThreads" />
-      <module name="javaseconcurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="za.co.simplitate.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in javaseconcurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaseconcurrency" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.TestRunnable" />
-        <item itemvalue="Application.TestThreads" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.All in javaseconcurrency" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfb1d055-d894-4ab4-92fc-48bd7c07457d" name="Default Changelist" comment="" />
-      <created>1572749831147</created>
+      <changelist id="e702b4bb-c476-4db8-9813-3178724198e0" name="Default Changelist" comment="" />
+      <created>1572933273076</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572749831147</updated>
-      <workItem from="1572749834323" duration="240000" />
-      <workItem from="1572750086316" duration="1314000" />
-      <workItem from="1572832788513" duration="2521000" />
-      <workItem from="1572877010605" duration="1708000" />
-      <workItem from="1572881501908" duration="2290000" />
+      <updated>1572933273076</updated>
+      <workItem from="1572933277069" duration="194000" />
     </task>
-    <task id="LOCAL-00001" summary="04 Nov">
-      <created>1572835670437</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1572835670437</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,16 +59,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04 Nov" />
-    <option name="LAST_COMMIT_MESSAGE" value="04 Nov" />
+    <MESSAGE value="add .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore file" />
   </component>
 </project>

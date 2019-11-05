@@ -1,1 +1,6 @@
-za/co/simplitate/tests/Test.class
+za\co\simplitate\beans\User.class
+za\co\simplitate\dao\UserDao.class
+za\co\simplitate\runnables\UserProcessor.class
+za\co\simplitate\tests\TestExecutors.class
+za\co\simplitate\dao\DBConnection.class
+za\co\simplitate\tests\Test.class

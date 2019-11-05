@@ -19,18 +19,18 @@ public class TestExecutors {
   public static void main(String[] args) {
 
     List<String> users = getUsersFromFile("src/main/resources/new_users.txt");
-    ExecutorService service = Executors.newSingleThreadExecutor();
+    ExecutorService service = Executors.newFixedThreadPool(3);
     UserDao dao  = new UserDao();
 
     for(String user : users) {
       Future<Integer> future = service.submit(new UserProcessor(user, dao));
-      try {
-        System.out.println("future " + future.get());
-      } catch (InterruptedException e) {
-        e.printStackTrace();
-      } catch (ExecutionException e) {
-        e.printStackTrace();
-      }
+//      try {
+//        System.out.println("future " + future.get());
+//      } catch (InterruptedException e) {
+//        e.printStackTrace();
+//      } catch (ExecutionException e) {
+//        e.printStackTrace();
+//      }
     }
     service.shutdown();
     System.out.println("Main execution over!!");
